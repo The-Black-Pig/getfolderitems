@@ -13,17 +13,17 @@ Find the folder/directory where Python holds all it's modules.
 
 Start Python3 in terminal and type in the following:
 
->>> import sys
->>> print('\n'.join(sys.path))
+	import sys
+
+	print('\n'.join(sys.path))
 
 This should return something like the following:
 
-/Library/Frameworks/Python.framework/Versions/3.5/lib/python35.zip
-/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5
-/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/plat-darwin
-/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/lib-dynload
-/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages
->>> 
+	/Library/Frameworks/Python.framework/Versions/3.5/lib/python35.zip
+	/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5
+	/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/plat-darwin
+	/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/lib-dynload
+	/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages
 
 No matter which platform you are using, you will always get paths to common directories,
 take a look at the contents of these directories and you will find some familiar file
@@ -36,14 +36,13 @@ Now run demo.py in Terminal, PyCharm, Eric or Idle (as you please)
 
 The options in module "getfolderitem" are :-
 
-	.folder()					  path to folder
-	.pdffile()					path to pdf file
-	.jpgfile()					path to jpg/jpeg file
-	.tiffile()					path to tif/tiff file
-	.pngfile()					path to png file
-	.txtfile()					path to txt file
-	.anyfile()					path to any file
-	.foldercontents(filetype)	returns a list of files in the selected folder, filters
-								            with file type e.g. "pdf"
+.folder()	<b>path to folder</b><br>
+.pdffile()	<b>path to pdf file</b><br>
+.jpgfile()	<b>path to jpg/jpeg file</b><br>
+.tiffile()	<b>path to tif/tiff file</b><br>
+.pngfile()	<b>path to png file</b><br>
+.txtfile()	<b>path to txt file</b><br>
+.anyfile()	<b>path to any file</b><br>
+.foldercontents(filetype) <b>returns a list of files in the selected folder, filters with file type e.g. "pdf"</b>
 
 Author: Steve Clements
