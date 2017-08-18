@@ -43,6 +43,6 @@ The options in module "getfolderitem" are :-
 .pngfile()	<b>path to png file</b><br>
 .txtfile()	<b>path to txt file</b><br>
 .anyfile()	<b>path to any file</b><br>
-.foldercontents(filetype) <b>returns a list of files in the selected folder, filters with file type e.g. "pdf"</b>
+.foldercontents("pdf") <b>returns a list of files in the selected folder, filters with file type e.g. "pdf"</b>
 
 Author: Steve Clements
